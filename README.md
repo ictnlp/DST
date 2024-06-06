@@ -54,6 +54,10 @@ fairseq-preprocess --source-lang ${SRC} --target-lang ${TGT} \
 
 ## Quick Start
 Our approach involves full-sentence pre-training and simultaneous translation fine-tuning. The pre-training phase will utilize a full-sentence cross-entropy loss, while the simultaneous translation phase will employ the method described in our paper. The scripts of the training stage can be found in [train_scripts](https://github.com/ictnlp/DST/tree/main/train_scripts).
+
+### Model Download
+Considering the amount of training data for the WMT15 German-English task, we provide the corresponding models [[baidu]](https://pan.baidu.com/s/1009-05gjDiuA_7c1Y-Yr8Q?pwd=acj6 ).
+
 ### Full-Sentence Pre-training
 In this phase, we train the Decoder-only model with the following full-sentence training loss to obtain good initial parameters .
 ```
