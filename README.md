@@ -153,12 +153,17 @@ If you have any questions, please feel free to submit an issue or contact guosho
 
 If our work is useful for you, please cite as:
 
+
 ```
 @inproceedings{dst,
-      title={Decoder-only Streaming Transformer for Simultaneous Translation}, 
-      author={Shoutao Guo and Shaolei Zhang and Yang Feng},
-      year={2024},
-      booktitle = {Proceedings of the 62th Annual Meeting of the Association for Computational Linguistics (Long Papers)},
-      publisher = {Association for Computational Linguistics}
-}
+    title = "Decoder-only Streaming Transformer for Simultaneous Translation",
+    author = "Guo, Shoutao  and
+              Zhang, Shaolei  and
+              Feng, Yang",
+    booktitle = "Proceedings of the 62th Annual Meeting of the Association for Computational Linguistics (Long Papers)",
+    month = Aug,
+    year = "2024",
+    publisher = "Association for Computational Linguistics",
+    address = "Bangkok, Thailand",
+}      
 ```
